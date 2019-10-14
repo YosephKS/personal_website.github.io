@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/YosephKS/personal_website.github.io",
+  "homepage": "https://YosephKS.github.io/personal_website.github.io",
   "dependencies": {
     "axios": "^0.19.0",
     "gh-pages": "^2.1.1",
