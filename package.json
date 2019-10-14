@@ -1,19 +1,40 @@
 {
-  "name": "test-react",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/YosephKS/personal_website.github.io",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.25",
-    "@fortawesome/free-solid-svg-icons": "^5.11.2",
-    "@fortawesome/react-native-fontawesome": "^0.1.0",
-    "mdbreact": "^4.21.0",
-    "nodemailer": "^6.3.0",
-    "react-native-svg": "^9.11.1"
+    "axios": "^0.19.0",
+    "gh-pages": "^2.1.1",
+    "google-maps-react": "^2.0.2",
+    "nodemon": "^1.19.3",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "3.1.2",
+    "react-scroll": "^1.7.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
